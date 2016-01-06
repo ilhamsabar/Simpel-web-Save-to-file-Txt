@@ -1,0 +1,40 @@
+.baris{
+	padding: 3px;
+}
+
+.komponen-form{
+	position: absolute;
+	left: 200px;
+}
+input, select{
+	width: 250px;
+}
+.pesan-validasi-gagal{
+	color: #F00;
+}
+.pesan-validasi-sukses{
+	color: #0F0;
+}
+table{
+	border-collapse: collapse;
+}
+th{
+	background-color: #FF0;
+}
+th, td{
+	padding: 3px;
+	border: 1px solid #000;
+}
+tr:nth-child(odd){
+	background-color: #DDD;
+}
+tr:nth-child(even){
+	background-color: #FFF;
+}
+button{
+	background-color: #369;
+	border-color: #339;
+	color: #FFF;
+	padding: 3px;
+	cursor: pointer;
+}
